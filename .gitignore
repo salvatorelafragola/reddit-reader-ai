@@ -1,0 +1,49 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+
+# Test cache
+.pytest_cache/
+
+# Configuration files
+*.ini
+*.cfg
+
+# Logs
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Python egg files
+*.egg-info/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Other temporary files
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Output files
+dist/
+build/
+
+# Compiled C extensions
+*.so
+
+# HTML coverage reports
+htmlcov/
+
+data.json
+debug_posts.json
+summaries.json
