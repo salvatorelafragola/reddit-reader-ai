@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ### 4. Avvio dell'Applicazione
 Una volta configurati i file necessari, puoi avviare l'applicazione eseguendo il file principale:
 ```bash
-python main.py
+python reddit_reader_ai.py
 ```
 
 ## Test
