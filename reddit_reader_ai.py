@@ -1,6 +1,6 @@
 import json
 import os
-from config.settings import LIMIT_POST, LIMIT_COMMENT, REDDIT_CHANNELS, OPENAI_MODEL, PROMPT
+from config.settings import LIMIT_POST, LIMIT_COMMENT, REDDIT_CHANNELS, OPENAI_MODEL, PROMPT, MAIL_TO_SEND_SUMMARIES
 from dotenv import load_dotenv
 from src import RedditFetcher, OpenAIProcessor, Tools, EmailSender
 
@@ -45,7 +45,7 @@ mail_sender = EmailSender(
 )
 
 mail_sender.send_mail(
-    to=["MAIL TO SEND NEWSLETTER"],
+    to=[MAIL_TO_SEND_SUMMARIES],
     subject="Reddit Daily Newsletter",
     body=final_html,
     is_html=True

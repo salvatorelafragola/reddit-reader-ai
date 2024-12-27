@@ -3,6 +3,7 @@
 ## Descrizione dell'Applicazione
 Reddit Reader AI è un applicazione che sintetizza i contenuti di un topic Reddit di uno o più specifici canali, tramite l'Intelligenza Artificiale. Il sommario dei contenuto verrà inviato tramite mail all'utente desiderato.
 
+Requisiti minimi: Python >= 3.11
 ## Configurazione dell'Applicazione
 
 Per poter utilizzare l'applicazione, è necessario configurare i file `.env` e `settings.py` nella directory `config`.
@@ -66,3 +67,4 @@ Assicurati di avere `pytest` installato:
 pip install pytest
 ```
 
+# reddit-reader-ai

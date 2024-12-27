@@ -10,8 +10,6 @@ MAX_COMPLETIONS_TOKEN = 2048
 TOP_P = 1
 FREQUENCE_PENALTY = 1
 PRESENCE_PENALTY = 2
-
-
 PROMPT = '''
 Sto lavorando a un progetto in cui devo creare un report dettagliato basato su dati JSON forniti da Reddit. Vorrei una sintesi ben organizzata per una mail.
 Il tuo scopo è quello di leggere il post di ogni canale, creare una breve sintesi facendo attenzione a cogliere i punti più importanti per ognuno di essi. Inoltre, leggerai anche i commenti e cercherai di capire il sentiment degli utenti in merito al post.
@@ -32,3 +30,4 @@ Il risultato dovrebbe apparire in un JSON così per ogni post del canale:
 
 # GENERAL SETTING
 LANGUAGE = "Italian"
+MAIL_TO_SEND_SUMMARIES = "INSERT MAIL"
