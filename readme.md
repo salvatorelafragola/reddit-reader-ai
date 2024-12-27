@@ -41,6 +41,7 @@ MAX_COMPLETIONS_TOKEN = 2048
 TOP_P = 1
 FREQUENCE_PENALTY = 1
 PRESENCE_PENALTY = 2
+MAIL_TO_SEND_SUMMARIES = "INSERT-MAIL" #Inserisci la mail a cui inviare la newsletter
 ```
 Modifica questi valori secondo le tue necessità.
 
